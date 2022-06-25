@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="HaloChat Test site. DarylBuckle.dev"
+    />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>HaloChat Test</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <div>
+        Chat should show in the bottom right corner. Click the chat icon to begin chat.
+    </div>
+
+
+    <div id="halo-chat"></div>
+    <script>
+    var haloChatConfig = {
+        chatServiceUrl: "https://darylbuckle.internal.haloservicedesk.com/api",
+        configId: "31c76d8e-0384-4583-bbeb-70b44357b481",
+        configKey: "9318eb76-0015-4eb5-943a-1aca4c096d20",
+        colour: "#7F56C6",
+    }
+    </script>
+    <script src="https://darylbuckle.internal.haloservicedesk.com/chat/index.js"></script>
+  </body>
+</html>
